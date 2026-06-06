@@ -1,0 +1,42 @@
+# ── Secret files ──────────────────────────────────────
+.env
+
+# ── Database (keep local, don't share publicly) ────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Python cache ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ── OS junk ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ─────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs ──────────────────────────────────────────────
+*.log
+logs/
+
+# ── Build artifacts ───────────────────────────────────
+dist/
+build/
+*.egg-info/
